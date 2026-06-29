@@ -1,8 +1,7 @@
 <?php
 
 
-// 1. Validar estrictamente si existe una sesión activa (Ajusta 'user_id' según las variables de tu sistema)
-if(!isset($_SESSION["user_id"])){
+// 1. Validar estrictamente si existe una sesión activa
     print "<script>window.location='index.php?view=login';</script>";
     exit;
 }
@@ -22,12 +21,12 @@ if(!isset($_SESSION["user_id"])){
         <div class="col-lg-7 mb-4 mb-lg-0">
             <div class="card shadow border-top border-success border-3 h-100">
                 <div class="card-body">
-                    <h4 class="text-success fw-bold mb-3"><i class="bi bi-briefcase-fill"></i> Identidad Corporativa y Operaciones</h4>
+                    <h4 class="text-success fw-bold mb-3"><i class="bi bi-briefcase-fill"></i> Nuestra Historia en Intag </h4>
                     <p class="text-justify text-secondary">
                         <strong>¡Te damos la bienvenida al Eco Mirador Portal Armónico!</strong> ¡Qué alegría que estés aquí! Este sistema es el rincón digital donde organizamos todo el cariño, la logística y la magia detrás de nuestro proyecto.
                     </p>
                     <p class="text-justify text-secondary">
-                        El Eco Mirador Portal Armónico nació como un sueño familiar en Pucará (en la hermosa zona de Intag). Nuestro propósito es cuidar la naturaleza que nos rodea y, al mismo tiempo, compartirla con viajeros de todo el Ecuador y el mundo, demostrando que se puede hacer turismo sin dañar el planeta.
+                        El Eco Mirador Portal Armónico nació como un sueño familiar en Pucará en la hermosa zona de Intag. Nuestro propósito es cuidar la naturaleza que nos rodea y, al mismo tiempo, compartirla con viajeros de todo el Ecuador y el mundo, demostrando que se puede hacer turismo sin dañar el planeta.
                     </p>
                     <hr class="text-muted my-3">
                     <p class="text-justify text-secondary small mb-0">
