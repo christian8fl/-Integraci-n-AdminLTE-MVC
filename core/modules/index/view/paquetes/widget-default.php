@@ -1,13 +1,5 @@
 <?php
 
-
-// 1. Validar estrictamente si existe una sesión activa (Ajusta 'user_id' según las variables de tu sistema)
-if(!isset($_SESSION["user_id"])){
-    print "<script>window.location='index.php?view=login';</script>";
-    exit;
-}
-
-
 ?>
 <div class="container-fluid pt-3">
     <div class="row mb-3">
