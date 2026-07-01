@@ -1,5 +1,5 @@
 <?php
-// core/modules/index/action/guardar_reserva/action-default.php
+
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // 1. Recoger las variables del formulario limpiando espacios en blanco
